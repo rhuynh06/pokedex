@@ -1,4 +1,4 @@
-# Pokedex(https://rhuynh06.github.io/Pokedex/)
+# [Pokedex](https://rhuynh06.github.io/Pokedex/)
 
 This is a simple Pokedex web application that allows users to search for Pokémon by name or ID and view their details, including strengths and weaknesses.
 
