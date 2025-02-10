@@ -40,4 +40,4 @@ This is a simple Pokedex web application that allows users to search for Pokémo
 3. The Pokémon details will be displayed, including name, ID, weight, height, types, and base stats.
 4. Click on the Pokémon sprite to view its strengths and weaknesses on the [extra.html](http://_vscodecontentref_/3) page.
 
-## Credit to FreeCodeCamp for their [PokéAPI Proxy.](https://pokeapi-proxy.freecodecamp.rocks/)
+## Credit to freecodecamp for their [PokéAPI Proxy.](https://pokeapi-proxy.freecodecamp.rocks/)
