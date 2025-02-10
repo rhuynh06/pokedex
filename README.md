@@ -23,7 +23,7 @@ This is a simple Pokedex web application that allows users to search for Pokémo
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/pokedex.git
+    git clone https://github.com/rhuynh06/pokedex.git
     ```
 
 2. Navigate to the project directory:
