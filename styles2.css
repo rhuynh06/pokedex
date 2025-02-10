@@ -1,0 +1,150 @@
+/* General Reset */
+body {
+  margin: 0.1%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  font-weight: bolder;
+  font-family: 'Press Start 2P', sans-serif; /* Retro pixel font */
+  background-color: #d32f2f; /* Classic Pokédex Red */
+  color: white;
+}
+
+/* Container */
+div {
+  width: 90%;
+  max-width: 600px;
+  background-color: #212121; /* Dark screen look */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3), 0 4px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* Pokémon Sprite */
+img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #ffeb3b;
+  border-radius: 50%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  margin: 20px 0;
+  font-size: 16px;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #fff;
+  text-align: left;
+}
+
+thead {
+  background-color: #ff9800;
+  color: black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ffccbc;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ff8a65;
+}
+
+tr td:nth-child(2) {
+  font-style: italic;
+}
+
+/* Title */
+h1 {
+  font-size: 24px;
+  background-color: #ffeb3b;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Pokemon (extra) */
+.pokemon-info {
+  text-align: center;
+}
+.pokemon-sprite {
+  width: 150px;
+  height: 150px;
+}
+
+/* List */
+li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+/* Types */
+.Bug {
+  color: #A8B820;
+}
+.Dark {
+  color: #705848;
+}
+.Dragon {
+  color: #7038F8;
+}
+.Electric {
+  color: #F8D030;
+}
+.Fairy {
+  color: #EE99AC;
+}
+.Fighting {
+  color: #C03028;
+}
+.Fire {
+  color: #F08030;
+}
+.Flying {
+  color: #A890F0;
+}
+.Ghost {
+  color: #705898;
+}
+.Grass {
+  color: #78C850;
+}
+.Ground {
+  color: #E0C068;
+}
+.Ice {
+  color: #98D8D8;
+}
+.Normal {
+  color: #A8A878;
+}
+.Poison {
+  color: #A040A0;
+}
+.Psychic {
+  color: #F85888;
+}
+.Rock {
+  color: #B8A038;
+}
+.Steel {
+  color: #B8B8D0;
+}
+.Water {
+  color: #6890F0;
+}

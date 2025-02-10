@@ -1,0 +1,74 @@
+{
+    "Bug": {
+        "weakAgainst": ["Fire", "Flying", "Rock"],
+        "strongAgainst": ["Grass", "Psychic", "Dark"]
+    },
+    "Dark": {
+        "weakAgainst": ["Fighting", "Bug", "Fairy"],
+        "strongAgainst": ["Psychic", "Ghost"]
+    },
+    "Dragon": {
+        "weakAgainst": ["Ice", "Dragon", "Fairy"],
+        "strongAgainst": ["Dragon"]
+    },
+    "Electric": {
+        "weakAgainst": ["Ground"],
+        "strongAgainst": ["Water", "Flying"]
+    },
+    "Fairy": {
+        "weakAgainst": ["Poison", "Steel"],
+        "strongAgainst": ["Fighting", "Dragon", "Dark"]
+    },
+    "Fighting": {
+        "weakAgainst": ["Flying", "Psychic", "Fairy"],
+        "strongAgainst": ["Normal", "Ice", "Rock", "Dark", "Steel"]
+    },
+    "Fire": {
+        "weakAgainst": ["Water", "Rock", "Fire"],
+        "strongAgainst": ["Grass", "Ice", "Bug", "Steel"]
+    },
+    "Flying": {
+        "weakAgainst": ["Electric", "Ice", "Rock"],
+        "strongAgainst": ["Grass", "Fighting", "Bug"]
+    },
+    "Ghost": {
+        "weakAgainst": ["Ghost", "Dark"],
+        "strongAgainst": ["Psychic", "Ghost"]
+    },
+    "Grass": {
+        "weakAgainst": ["Fire", "Ice", "Poison", "Flying", "Bug"],
+        "strongAgainst": ["Water", "Ground", "Rock"]
+    },
+    "Ground": {
+        "weakAgainst": ["Water", "Grass", "Ice"],
+        "strongAgainst": ["Fire", "Electric", "Poison", "Rock", "Steel"]
+    },
+    "Ice": {
+        "weakAgainst": ["Fire", "Fighting", "Rock", "Steel"],
+        "strongAgainst": ["Grass", "Ground", "Flying", "Dragon"]
+    },
+    "Normal": {
+        "weakAgainst": ["Fighting"],
+        "strongAgainst": []
+    },
+    "Poison": {
+        "weakAgainst": ["Ground", "Psychic"],
+        "strongAgainst": ["Grass", "Fairy"]
+    },
+    "Psychic": {
+        "weakAgainst": ["Bug", "Ghost", "Dark"],
+        "strongAgainst": ["Fighting", "Poison"]
+    },
+    "Rock": {
+        "weakAgainst": ["Water", "Grass", "Fighting", "Ground", "Steel"],
+        "strongAgainst": ["Fire", "Ice", "Flying", "Bug"]
+    },
+    "Steel": {
+        "weakAgainst": ["Fire", "Fighting", "Ground"],
+        "strongAgainst": ["Ice", "Rock", "Fairy"]
+    },
+    "Water": {
+        "weakAgainst": ["Electric", "Grass"],
+        "strongAgainst": ["Fire", "Ground", "Rock"]
+    }
+}

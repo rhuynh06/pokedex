@@ -1,0 +1,141 @@
+/* General Reset */
+body {
+  margin: 0.1%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  font-weight: bolder;
+  font-family: 'Press Start 2P', sans-serif; /* Retro pixel font */
+  background-color: #d32f2f; /* Classic Pokédex Red */
+  color: white;
+}
+
+/* Form */
+form {
+  background-color: #b71c1c;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  background-color: #fff3e0;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ffeb3b;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #fdd835;
+}
+
+/* Container */
+div {
+  width: 90%;
+  max-width: 600px;
+  background-color: #212121; /* Dark screen look */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3), 0 4px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* Pokémon Sprite */
+img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #ffeb3b;
+  border-radius: 50%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+/* Strength / Weakness */
+.disabled {pointer-events: none;}
+
+div.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: none;
+}
+
+.logo button {
+  width: 35%;
+  height: auto;
+}
+
+.strength {color: green}
+.weakness {color: red}
+
+/* Table */
+table {
+  width: 100%;
+  margin: 20px 0;
+  font-size: 16px;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #fff;
+  text-align: left;
+}
+
+thead {
+  background-color: #ff9800;
+  color: black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ffccbc;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ff8a65;
+}
+
+tr td:nth-child(2) {
+  font-style: italic;
+}
+
+/* Title */
+h1 {
+  font-size: 24px;
+  background-color: #ffeb3b;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Pokemon (extra) */
+.pokemon-info {
+  text-align: center;
+}
+.pokemon-sprite {
+  width: 150px;
+  height: 150px;
+}

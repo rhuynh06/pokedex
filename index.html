@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <link href="styles1.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Pokedex</h1>
+    <form>
+      <label for="search-input">Search Pokémon Name or ID:</label>
+      <input id="search-input" placeholder="Pikachu" required/>
+      <button id="search-button">Search</button>
+    </form>
+    <div>
+      <div class="logo">
+        <a id="sprite-link" class="disabled">
+          <img id="sprite">
+        </a>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Base</th>
+            <th>Stats</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Name</th>
+            <td id="pokemon-name"></td>
+          </tr>
+          <tr>
+            <td>Id</td>
+            <td id="pokemon-id"></td>
+          </tr>
+          <tr>
+            <td>Weight</th>
+            <td id="weight"></td>
+          </tr>
+          <tr>
+            <td>Height</td>
+            <td id="height"></td>
+          </tr>
+          <tr>
+            <td id="oneOrMoreType">Type(s)</th>
+            <td id="types"></td>
+          </tr>
+          <tr>
+            <td>HP</td>
+            <td id="hp"></td>
+          </tr>
+          <tr>
+            <td>Atk</th>
+            <td id="attack"></td>
+          </tr>
+          <tr>
+            <td>Def</td>
+            <td id="defense"></td>
+          </tr>
+          <tr>
+            <td>Sp. Atk</th>
+            <td id="special-attack"></td>
+          </tr>
+          <tr>
+            <td>Sp. Def</td>
+            <td id="special-defense"></td>
+          </tr>
+          <tr>
+            <td>Spd</th>
+            <td id="speed"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="script1.js"></script>
+  </body>
+</html>
