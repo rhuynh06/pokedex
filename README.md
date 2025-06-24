@@ -1,6 +1,4 @@
-# Pokedex
-
-[Live Demo](https://rhuynh06.github.io/pokedex/)
+# [Pokedex](https://rhuynh06.github.io/pokedex/)
 
 This is a simple yet feature-rich Pokédex web application that allows users to search for Pokémon by name or ID and view detailed information, including stats, sprite, and strengths/weaknesses based on type.
 
@@ -16,20 +14,8 @@ This is a simple yet feature-rich Pokédex web application that allows users to 
 - Highlights multiple types if present
 - Validates input and alerts on invalid Pokémon entries
 
-## How It Works
-
-- User enters a Pokémon name or ID and clicks "Search"
-- App fetches data from the [FreeCodeCamp PokéAPI Proxy](https://pokeapi-proxy.freecodecamp.rocks/)
-- On success:
-  - Updates DOM elements with the Pokémon’s information
-  - Parses types to generate strengths and weaknesses from `types.json`
-  - Populates a second page (`extra.html`) with type-based analysis via URL parameters
-- If the input is invalid or fetch fails, the app shows an alert
-
 ## Technologies Used
 
 - HTML, CSS, JavaScript (Vanilla)
 - [PokéAPI Proxy by freeCodeCamp](https://pokeapi-proxy.freecodecamp.rocks/)
 - `types.json` (local file) to determine type matchups
-
-## Project Structure
