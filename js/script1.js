@@ -1,3 +1,5 @@
+/* FOR POKEMON STATS */
+
 const input = document.getElementById("search-input");
 const sbtn = document.getElementById("search-button");
 const pokeName = document.getElementById("pokemon-name");

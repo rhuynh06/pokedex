@@ -1,3 +1,5 @@
+/* FOR POKEMONG WEAKNESSES & STRENEGTHS */
+
 // Function to get query parameters
 function getQueryParams() {
     const params = new URLSearchParams(window.location.search);
